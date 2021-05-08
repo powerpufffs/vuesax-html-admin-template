@@ -1,0 +1,50 @@
+
+.rslt-btn{
+	button{
+		font-size: 13px;
+	}
+}
+// Table Select
+.table-action{
+	padding: 4px 30px; 
+}
+// Search Icon
+div.dataTables_wrapper div.dataTables_filter{
+	label{
+		position: relative;	
+		i{
+			position: absolute;
+			right: 9px;
+			top: 7px;
+		}
+	}
+}
+// Sorting and Search-box
+div.dataTables_wrapper div{
+	.dataTables_filter select,
+	.dataTables_length select{
+ 			padding: 0 1.5rem;
+	 }
+	.dataTables_filter input{
+ 		border-radius: 15px;
+ 	}
+ }
+
+// Checkbox and badges 
+table.dataTable tbody{
+	td{
+	  &.select-checkbox:before,
+	  &.select-checkbox:after{
+	  	top: 2.4em;
+	  }
+	}
+	th{
+	  &.select-checkbox:before,
+	  &.select-checkbox:after{
+	  	top: 2.4em;
+	  }
+	}
+	.badge{
+		padding: 10px 12px;
+	}
+}
